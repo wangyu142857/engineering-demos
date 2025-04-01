@@ -1,0 +1,90 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 51,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 18,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 6,
+          "end": 17,
+          "id": {
+            "type": "Identifier",
+            "start": 6,
+            "end": 9,
+            "name": "sum"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 12,
+            "end": 17,
+            "left": {
+              "type": "Identifier",
+              "start": 12,
+              "end": 13,
+              "name": "a"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Identifier",
+              "start": 16,
+              "end": 17,
+              "name": "b"
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 19,
+      "end": 51,
+      "id": {
+        "type": "Identifier",
+        "start": 28,
+        "end": 31,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 34,
+        "end": 51,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 36,
+            "end": 49,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 43,
+              "end": 48,
+              "left": {
+                "type": "Identifier",
+                "start": 43,
+                "end": 44,
+                "name": "a"
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 47,
+                "end": 48,
+                "name": "b"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

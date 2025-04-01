@@ -1,0 +1,13 @@
+{
+  "name": "engineering-demos",
+  "private": true,
+  "version": "0.0.0",
+  "volta": {
+    "node": "22.11.0",
+    "yarn": "4.5.1"
+  },
+  "dependencies": {
+    "acorn": "^8.14.0",
+    "webpack": "^5.98.0"
+  }
+}
